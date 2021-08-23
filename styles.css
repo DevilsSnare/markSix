@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&family=Yanone+Kaffeesatz&display=swap");
+
+body {
+  max-width: 100%;
+  margin: auto;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.brand {
+  text-align: center;
+  background-color: orange;
+  font-size: 3rem;
+  padding: 1rem;
+}
+.main {
+  margin: auto;
+  max-width: 700px;
+  padding: 2rem 1rem;
+}
+.input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 30vh;
+  overflow: scroll;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+}
+.translate {
+  display: block;
+  margin: 1.5rem auto 0.5rem;
+  padding: 0.5rem;
+  background-color: orange;
+  text-align: center;
+  font-size: 1.5rem;
+  border: none;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.translate:hover {
+  background-color: black;
+  color: orange;
+}
+.what {
+  font-size: 1.5rem;
+}
+.output {
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 100%;
+  min-height: 30vh;
+  font-size: 1.5rem;
+  overflow: scroll;
+  padding: 0.5rem;
+}
+footer {
+  background-color: orange;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0rem;
+}
+.link {
+  padding: 0.4rem;
+  color: black;
+}
